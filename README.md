@@ -9,5 +9,6 @@ Node V18 or higher,
 use  node -v to check the current installed version
 
 # Instructions
-  1. Clone or download the proyect
-  2. Run the following command  npm run wdio 
+  1. Clone or download the project
+  2. Go to the webriveriodemo folder and run ```npm ci``` in a console window (CMD, Powershell etc )  
+  3. Run the following command:  ```npm run wdio``` 
