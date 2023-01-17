@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "@wdio/sync",
+            "@wdio/cucumber-framework",
+            "expect-webdriverio",
+            "@wdio/devtools-service",
+            "@wdio/appium-service"
+        ],
+        "target": "es5"
+    }
+}
