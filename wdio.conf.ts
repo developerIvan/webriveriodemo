@@ -14,6 +14,7 @@ export const config: Options.Testrunner = {
     },
     
     automationProtocol: 'webdriver',
+
     //
     // ==================
     // Specify Test Files
@@ -68,11 +69,17 @@ export const config: Options.Testrunner = {
         //
         browserName: 'chrome',
         acceptInsecureCerts: true,
+        //uncomment this section in order to run with headless mode
+        /*
+        'goog:chromeOptions': {
+            args: ['headless']
+        },*/
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     }],
+ 
     //
     // ===================
     // Test Configurations
